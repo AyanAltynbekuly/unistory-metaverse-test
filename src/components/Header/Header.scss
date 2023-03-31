@@ -1,0 +1,28 @@
+.header {
+    height: 5%;
+    padding: 10px 0;
+    margin-bottom: 50px;
+  
+    &__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      p {
+        color: #e75626;
+      }
+  
+      .logo {
+        width: 199px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #5a5a5a;
+        border: 1px dashed #c7c7c7;
+        height: 44px;
+        cursor: pointer;
+        color: #fff;
+      }
+    }
+  }
+  

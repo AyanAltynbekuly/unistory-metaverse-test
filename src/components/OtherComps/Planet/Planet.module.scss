@@ -1,0 +1,35 @@
+@mixin circle($widthAndHeightValue, $color) {
+  border-radius: 50%;
+  width: $widthAndHeightValue;
+  height: $widthAndHeightValue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color;
+}
+
+.outer {
+  @include circle(532px, #212124);
+  position: relative;
+  .inner_1 {
+    @include circle(526px, #171719);
+    filter: blur(11px);
+  }
+
+  .inner_2 {
+    @include circle(446px, #1e1e20);
+    position: absolute;
+    top: 43px;
+    left: 43px;
+
+    .inner_3 {
+      @include circle(384px, transparent);
+      border: 1px solid #323232;
+
+      .inner_4 {
+        @include circle(370px, transparent);
+        border: 1px solid #323232;
+      }
+    }
+  }
+}
