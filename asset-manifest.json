@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/unistory-metaverse-test/static/css/main.0ba51ca6.css",
+    "main.js": "/unistory-metaverse-test/static/js/main.02cc706b.js",
+    "static/media/planet.png": "/unistory-metaverse-test/static/media/planet.24b497fb96f5b274b271.png",
+    "static/media/planetWithText.png": "/unistory-metaverse-test/static/media/planetWithText.735917e95382c01f8c33.png",
+    "index.html": "/unistory-metaverse-test/index.html",
+    "main.0ba51ca6.css.map": "/unistory-metaverse-test/static/css/main.0ba51ca6.css.map",
+    "main.02cc706b.js.map": "/unistory-metaverse-test/static/js/main.02cc706b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ba51ca6.css",
+    "static/js/main.02cc706b.js"
+  ]
+}
